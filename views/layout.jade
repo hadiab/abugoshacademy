@@ -49,6 +49,12 @@ html(lang='en')
                   a.page-scroll(href='#team', style=' font-size: 20px !important; color: #fff !important; font-weight: bold !important;') أعضاء الجمعية
                 li
                   a.page-scroll(href='#contact', style='font-size: 20px !important; color: #fff !important; font-weight: bold !important;') راسلنا
+          if page=="artical"
+            ul.nav.navbar-nav.navbar-right
+                li
+                  img(src='img/logo_transparent.png',style="width:70px; height:70px;")
+             
+
         // /.navbar-collapse
       // /.container-fluid
    
@@ -98,7 +104,7 @@ html(lang='en')
                      i.fa.fa-times
                      |  Close Project
 
-    // jQuery
+    // jQuery   
     script(src='./vendor/jquery/jquery.min.js')
     // Bootstrap Core JavaScript
     script(src='./vendor/bootstrap/js/bootstrap.min.js')
@@ -109,4 +115,5 @@ html(lang='en')
     script(src='./js/contact_me.js')
     // Theme JavaScript
     script(src='./js/agency.min.js')
+    script(src='./js/modal.js') 
 
