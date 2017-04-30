@@ -14,4 +14,5 @@ router.get('/artical', function(req, res, next) {
   res.render('artical', { page: 'artical' });
 });
 
+
 module.exports = router;
